@@ -1,0 +1,44 @@
+Noções básicas de Game maker studio 2
+
+O gamemaker e a maioria dos jogos usa as direções com base no plano cartesiano sendo:
+x: horizontal
+y: vertical
+
+A programação do game maker é rudimentar e tem os operadores lógicos parecidos ao js
+
+Uma função se assemelha muito ao js mas o nome da função ja possui a propriedade a ser pega e dentro o elemento.
+ex: if keyboard_cheack(vk_left){
+	x-=1
+}
+
+A ordem de soma e subtração é antes do = que significa atribuição
+
+------------------------------------
+-Sprites-
+As sprites devem conter em seu nome
+spr_nome pois para manter o padrão de boas praticas
+
+Escalonamento da imagem não deve ser refeito pois perde pixels
+
+O ponto de origem deve ficar ao centro no meio ou aonde faz sentido no template do plano cartesiano. Ja no caso de blocos do cenário pode ficar no mesmo ponto inicial.
+A pastas de Sprites podem conter os prites de todo o jogo.
+
+
+-Objetos-
+Os objetos são o que dão informações dentro do código
+Persistencia: ele persiste no mapa
+
+	Eventos: onde é inserido a programação
+		create: Quando o objeto é criado acontece o que esta 		escrito
+		Step: Algoritimo de movimentação
+
+
+-Rooms-
+
+----------------------------------------------------------------------
+
+Hierarquia de folhas de código é importante na leitura
+
+OBS: VSPEED
+N USAR pq ele  buga
+
